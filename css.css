@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background-color: rgb(136, 241, 255);
+}
+.h{
+    
+}
+.menu{
+    background-color: rgb(250, 59, 45);
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+}
+.tit1{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    padding: 15px;
+    border-top: 50px;
+    font-size: 40px
+}
+.botao{
+    background-color: rgb(136, 241, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    padding: 10px;
+    color:black;
+    margin: 10px;
+    text-decoration: none;
+}
+.tex{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-indent: 8%;
+    text-align: center;
+}
+.dec{
+    text-decoration: none;
+}
+.dec :hover{
+    color:white;
+    background-color: rgb(0, 132, 150);
+    transition: 0.25s;
+}
